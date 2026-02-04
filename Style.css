@@ -1,0 +1,14 @@
+/* FIX 1: Add this CSS to make cards even */
+        .custom-card {
+            height: 100%; /* Forces cards in the same row to match height */
+        }
+        
+        .card-img-top {
+            height: 200px;   /* Sets a fixed height for all images */
+            object-fit: cover; /* Prevents images from stretching/squishing */
+        }
+        h1.text-center.mb-5 {
+            text-align: center;
+            border-radius: 1px black;
+        
+        }
